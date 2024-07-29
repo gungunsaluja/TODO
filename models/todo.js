@@ -27,3 +27,4 @@ const todoschema = new mongoose.Schema(
     }
 );
 module.exports = mongoose.model("todo",todoschema);
+// is module ko controller use krega
