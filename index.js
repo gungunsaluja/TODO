@@ -10,7 +10,7 @@ const app = express();// value return karta hai
 // is line se jo b config aapne env file me rkhi hai vo load hojayegi
 require("dotenv").config();
 // dotenv library ka use karke process object me jo b configurations .env file me h usko load krva liya
-
+ 
 const PORT = process.env.PORT || 4000;
 //middleware to parse json request body
 app.use(express.json());

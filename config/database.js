@@ -24,7 +24,7 @@ const dbconnect = () => {
         
         process.exit(1);
     });
-    // databse url bhr pdha tw feed krna pdega process vale code m feed krnee ke liyee .env library ka use krke  
+    // databse url bhr pdha tw feed krna pdega process vale code m feed krnee ke liyee .env library ka use krke   
 }
 
 module.exports = dbconnect;
