@@ -13,7 +13,8 @@ exports.getTodo = async(req,res)=>{
         res.status(200).json({
             success:true,
             data:todos,
-            message:"Entire todo data s fetched",
+            // data ke andr sare todos item daal doo
+            message:"Entire todo data is fetched",
         })
     }
     catch(err){

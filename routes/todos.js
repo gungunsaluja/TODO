@@ -6,7 +6,8 @@ const {getTodo, getTodoById} = require("../controllers/getTodo");
 const {updateTodo} = require("../controllers/updateTodo");
 const {deleteTodo} = require("../controllers/deleteTodo");
 
-//define API routes
+//define API routes 
+// mapping
 router.post("/createTodo",createTodo);
 router.get("/getTodos",getTodo);
 router.get("/getTodos/:id",getTodoById);
